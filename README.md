@@ -1,15 +1,23 @@
-EN
-step 1. download data https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=625
-step 2. undo zip 
-step 3. follow directory: 031.온라인 구어체 말뭉치 데이터/01.데이터/1.Training_220728_add/원천데이터
-step 4. undo zip
-step 5. move all json files to data folder (current directory)
-step 6. execute 01_preprocessing.ipynb code cells in chronological order
+## Getting Started
 
-KR
-1단계. 데이터 다운로드 https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=625
-2단계. 지퍼를 해제합니다
-step 3. follow directory: 031.온라인 구어체 말뭉치 데이터/01.데이터/1.Training_220728_add/원천데이터
-4단계. 지퍼를 해제합니다
-5단계. 모든 json 파일을 데이터 폴더(현재 디렉토리)로 이동합니다
-6단계. 01_prepprocessing.ipynb 코드 셀을 시간 순서대로 실행합니다
+### EN
+| Step | Description |
+|------|-------------|
+| 1 | Download data: [AI Hub Dataset](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=625) |
+| 2 | Unzip the downloaded file |
+| 3 | Navigate to: `031.온라인 구어체 말뭉치 데이터/01.데이터/1.Training_220728_add/원천데이터` |
+| 4 | Unzip again |
+| 5 | Move all `.json` files to the `data/` folder (current directory) |
+| 6 | Execute `01_preprocessing.ipynb` code cells in chronological order |
+
+---
+
+### KR
+| 단계 | 설명 |
+|------|------|
+| 1 | 데이터 다운로드: [AI Hub 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=625) |
+| 2 | 다운로드한 파일의 압축을 해제합니다 |
+| 3 | 경로 이동: `031.온라인 구어체 말뭉치 데이터/01.데이터/1.Training_220728_add/원천데이터` |
+| 4 | 다시 압축을 해제합니다 |
+| 5 | 모든 `.json` 파일을 `data/` 폴더(현재 디렉토리)로 이동합니다 |
+| 6 | `01_preprocessing.ipynb` 코드 셀을 순서대로 실행합니다 |
