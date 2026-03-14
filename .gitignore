@@ -1,0 +1,9 @@
+/06_data
+/06_files
+/data
+/data_legacy
+
+.DS_Store
+
+corpus_text.json
+ko_stopwords.txt

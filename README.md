@@ -1,5 +1,12 @@
 ## Getting Started
 
+
+
+toy story scripts
+https://www.dropbox.com/scl/fo/jsp5e4hugp864opaerp7z/AKfzmVsRI52YCgdG_6nHsVM?e=1&from_auth=register&ignore_new_user_install_redirect=1&rlkey=00st0zjz1rzeoifjumtvsg4bl&dl=0
+
+
+
 ### EN
 | Step | Description |
 |------|-------------|
