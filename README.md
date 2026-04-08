@@ -25,19 +25,22 @@ Framework: LangChain, PyTorch, Streamlit
 
 | 서비스 | 질문 (Input Query) | 기대 답변 예시 | 실제 모델 답변 (Actual Output) | 판정 |
 |------|-------------------|-------------|----------------------------|-----|
-| 멀티 에이즌트 | "펜실베니아 대학교 학비 알려줘." | "펜실베니아 대학교 학비는 [실제 데이터] 입니다." | "펜실베니아 대학교 학비는 연간 8만 1,990달러입니다. 이 금액은 수업료, 수수료, 그리고 필수 부교재비를 포함하고 있어요. 기숙사비와 식비 등 생활비는 별도로 고려해야 합니다. 더 자세한 내용은 펜실베니아 대학교 재정 지원 홈페이지에서 확인하실 수 있습니다." | Pass |
+| 멀티 에이즌트 | "펜실베니아 대학교 학비 알려줘." | "펜실베니아 대학교 학비는 8만 1,990달러입니다." | "펜실베니아 대학교 학비는 연간 8만 1,990달러입니다. 이 금액은 수업료, 수수료, 그리고 필수 부교재비를 포함하고 있어요. 기숙사비와 식비 등 생활비는 별도로 고려해야 합니다. 더 자세한 내용은 펜실베니아 대학교 재정 지원 홈페이지에서 확인하실 수 있습니다." | Pass |
 | 입시지원 챗봇 | "UCLA대학교에 입학에 필요한 서류를 알려줘." | "UCLA대학교에서 필요한 서류는 성적표, 테스트 걸과 서류, 등등이 필요합니다." | "UCLA 대학교 입학에 필요한 서류는 다음과 같습니다.\n\n*   지원서: Common Application 또는 Coalition Application을 통해 제출합니다.\n*   고등학교 성적 증명서: 정식 증명서 원본을 제출해야 합니다.\n*   SAT/ACT 점수: UCLA는 Test-Free 정책을 시행하고 있지만, 점수를 제출하는 것은 선택 사항입니다.\n*   영어 능력 시험 점수: TOEFL, IELTS 등 공인 영어 시험 점수가 필요합니다.\n*   추천서: 고등학교 교사 2명으로부터 추천서를 받아야 합니다.\n*   에세이: UCLA에서 요구하는 에세이를 작성해야 합니다.\n*   경력 및 활동 내용: 지원자의 경험과 활동을 보여주는 자료를 제출해야 합니다.\n\n자세한 내용은 UCLA 입학처 홈페이지에서 확인하실 수 있습니다." | Pass |
 
 
 | 서비스 |  질문 (Input Query) | 기대 질문 예시 | 실제 모델 질문 (Actual Output) | 판정 |
 |------|--------------------|-------------|----------------------------|-----|
-| 비자 모의면접 | - | "Why did you choose computer science and why University of California Berkley? " | "Considering your program start date of August 27, 2025, and your major in Computer Science at the University of California Berkeley, can you briefly describe your initial plans for your studies upon arrival?" (환각 현상 발생)" | Pass |
-| 비자 모의면접 | - |  "What is your planned course of study?" | "Given your enrollment in the Computer Science program at the University of California Berkeley, could you elaborate on your anticipated coursework and research interests during your studies?" (환각 현상 발생)" | Pass |
-| 비자 모의면접 | - |  "What are your plans of employment during your study?" | "Considering your program start date of August 2025 at the University of California Berkeley, can you briefly describe your initial plans for your first semester as a Computer Science student?" (환각 현상 발생)" | Pass |
+| 비자 모의면접 | - | "Why did you choose computer science and why University of California Berkley? " | "Considering your program start date of August 27, 2025, and your major in Computer Science at the University of California Berkeley, can you briefly describe your initial plans for your studies upon arrival?" | Pass |
+| 비자 모의면접 | - |  "What is your planned course of study?" | " Considering your acceptance to the University of California Berkley to study Computer Science, can you elaborate on specific coursework or research opportunities within the program that particularly excite you?" | Pass |
+| 비자 모의면접 | - |  "Tell me about who is funding your studies?" | "Given your funding sources include personal funds and funds from another source, could you please explain the specific arrangement you have with this other source to ensure consistent financial support throughout your Computer Science program at the University of California Berkley?" | Pass |
 
 
 
+ Considering your acceptance to the University of California Berkley to study Computer Science, can you elaborate on specific coursework or research opportunities within the program that particularly excite you?
+User: I am especially looking forward to doing research and learning more about AI.  I believe AI is the future and will be an integral part of the future.  I truely believe that AI is and will continue to touch almost every aspect of our lives and my goal is to contribute positively to that. 
 
+Officer: Given your funding sources include personal funds and funds from another source, could you please explain the specific arrangement you have with this other source to ensure consistent financial support throughout your Computer Science program at the University of California Berkley?
 
 
 
