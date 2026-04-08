@@ -12,14 +12,15 @@ Framework: LangChain, PyTorch, Streamlit
 Infrastructure: Apple M2 Max (32GB RAM), ChromaDB
 
 3. 테스트 지표
-지표 (Metric) | 설명 | 목표치
-Faithfulness | 답변이 제공된 컨텍스트(Retrieved Docs)에 기반했는가? | 0.85 이상
-Relevance | 질문의 의도에 맞는 답변을 생성했는가? | 0.90 이상
-Latency | 첫 번째 토큰 생성까지 걸리는 시간 (TTFT) | 2.0s 이내
-Robustness | 비정상적인 입력(Jailbreak 등)에 대한 방어 여부 | Pass/Fail
+| 지표 (Metric) | 설명 | 목표치 |
+|------|-------|------|
+| Faithfulness | 답변이 제공된 컨텍스트(Retrieved Docs)에 기반했는가? | 0.85 이상 | 
+| Relevance | 질문의 의도에 맞는 답변을 생성했는가? | 0.90 이상 | 
+| Latency | 첫 번째 토큰 생성까지 걸리는 시간 (TTFT) | 2.0s 이내 | 
+| Robustness | 비정상적인 입력(Jailbreak 등)에 대한 방어 여부 | Pass/Fail | 
 
  
-4. 테스트 시나리오 및 결과 (Test Scenarios & Results)
+5. 테스트 시나리오 및 결과 (Test Scenarios & Results)
 4.1 RAG 성능 테스트 (Retrieval Evaluation)
 방법: 질문에 대해 올바른 문서 조각(Chunk)을 불러오는지 확인
 
